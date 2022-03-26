@@ -1,0 +1,29 @@
+/*Este é minha folha de style CSS*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    table-layout: auto;
+}
+h1{
+    font-size: 50pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    border-bottom: black;
+    text-align: center;
+    background-color: #84A9CF;
+    padding: 30px;
+    margin: 30px;
+}
+.header{
+    font-size: 20px;
+    text-align: right;
+
+}
+.footer{
+    font-size: 20px;
+    text-align: left;
+}
