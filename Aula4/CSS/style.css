@@ -1,0 +1,50 @@
+body{
+    font-family: 'Roboto';   
+}
+.container{
+    width: 1178px;
+    height: 1128px;
+}
+h2{
+    position: top;
+}
+a{
+    text-decoration: aliceblue;
+    
+}
+.article{
+    width: 264px;
+    height: 213px;
+    padding: 2px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+
+}
+li{
+    list-style: none right;
+    display: inline-block;
+    
+    
+}
+
+.caixa{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 480px;
+    height: 214px;
+    color:white;    
+    padding: 2px;
+    margin-top: px;
+    font-size: 12px;
+}
+.banner{
+    background-image: url(/Estudos/WebDesenvolvimento/Aula4/img/banner.jpg);
+    background-size: absolute;
+    width: 1128px;
+    height: 445px;
+}
+.footer{
+    align-items: left;
+}
