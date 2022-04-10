@@ -1,46 +1,98 @@
-body{
-    font-family: 'Roboto';   
-}
-.container{
-    width: 1178px;
-    height: 1128px;
+.container
+{
+	width: 1128px;
+	height: 1178px;
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-a{
-    text-decoration: aliceblue;
+body
+{
+	font-family: Roboto;
+
+}
+
+nav
+{
+	display: block;
+}
+
+li
+{
+    display: inline-block;
+	color: #999;
+	margin-left: 10px;
+	padding: 2px;
+	
+}
+
+a
+{
+	color: #999;
+	text-decoration: none;
+}
+
+ul
+{
+	text-align: right;
+}
+
+.caixa
+{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 480px;
+	margin-top: 46.53px;
+}
+
+.banner
+{
+	margin-bottom: 35px;
+	background-image: url(../img/banner.jpg);
+	height: 445.46px;
+	margin-left: -5px;
+}
+
+section
+{
+	padding: 8px;
+	margin-left: -13px;
+	display: flex;
+}
+
+h1
+{
+	margin-left: 28px;
+	color: white;
+}
+
+.footer
+{
+	color: black;
+    margin-top: 170px;
+}
+
+img
+{
+	width: 264px;
+    padding-right: 25px;
     
 }
-    .article{
-        width: 264px;
-        height: 213px;
-        padding: 2px;
-        display: inline-block;
-        margin-left: auto;
-        margin-right: auto;
-}
-li{
-    list-style: none right;
-    display: inline-block;
+
+p
+{
+	color: black;
 }
 
-.caixa{
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    width: 480px;
-    height: 214px;
-    color:white;    
-    margin-top: 50px;
-    font-size: 12px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 30px;
+article p 
+{
+	text-align: left;
+ 
 }
-.banner{
-    background-image: url(/Estudos/WebDesenvolvimento/Aula4/img/banner.jpg);
-    background-size: absolute;
-    width: 1128px;
-    height: 445px;
+
+section p
+{
+	padding: 6px;
 }
-.footer{
-    align-items: left;
-}
+
