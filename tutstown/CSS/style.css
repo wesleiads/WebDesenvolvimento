@@ -1,68 +1,76 @@
 /*CSS site Tuts Town*/
 
-body{
-  font-family: 'Open Sans', sans-serif;
-  background-color: #FAF8DA;
-  margin: 0;
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FAF8DA;
+    margin: 0;
 }
-/* @font-face { <<<- This is the way to use the font since of machine
-  font-family: Brokenbrush;
-  src: url("../fonts/Brokenbrush.ttf");
-} */
-/* h1{
-  font-family: Brokenbrush, sans-serif; /*comma is used to split the elements in CSS*/
-header{
-   text-align: center;
-}
-.title{
-  font-size: 200px;
+/* Como inserir um fonte do diretorio
+@font-face{
+    font-family: Brokenbrush;
+    src:url('../fontes/Brokenbrush.ttf');
 }
 h1{
-   font-size: 70px;
-   color: #205d76;
+    font-family: 'Brokenbrush', sans-serif;
 }
-h2{
-  float: left;
-}
-/*Section*/
-.header{
-  display:flex;
-  margin:50px auto;/*distribuir a margem e vai centralizar*/
-  width:450px;
-}
-.article{
+*/
 
-  margin-top: 200px;/*distribuir a margem e vai centralizar*/
-  width:450px;
+header {
+     text-align: center;
 }
-.images{
-  width: 200px;
-  float: left;
+
+h1{
+    font-size: 70px;
+    color: #205d76;
 }
+
+.header{
+    width: 650px
+}
+
+/*Section*/
+
+article{
+    display: flex ;
+    margin: 50px auto;
+    width: 450px;
+}
+
+.article{
+    width: 200px;
+}
+
+
 div{
-  margin-left: 30px;
+    margin-left: 30px;
 }
+
 h2{
-  font-size: 30px;
-  color: #205d76
+    font-size: 30px;
+    color: #205d76;
 }
+
 ul{
-  color:#FFC122;
-  padding-left: 15px;
+    color: #ffc122;
+    padding-left: 15px;
 }
+
 li{
-  margin-bottom: 10px;
-  
+    margin-bottom: 10px;
 }
+
 a{
-  color: #EA6E2F;
-  font-size: 20px;
+    color: #EA6E2F;
+    font-size: 20px;
 }
+
 footer{
-  background-color: #FFC122;
-  text-align: center;
-  padding: 2px;
+    background-color: #ffc122;
+    text-align: center;
+    padding: 2px;
 }
+
 p{
-  color:#FFFFFF;
+    color: #ffffff
 }
+© 2022 GitHub, Inc.
