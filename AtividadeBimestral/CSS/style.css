@@ -98,7 +98,7 @@ body {
 }
 
 .text-bar {
-	padding: 2px;
+	padding: 1px;
 	margin-left: 25px;
 	color: black;
 	list-style-type: square;
@@ -110,11 +110,10 @@ body {
 	margin-bottom: 5px;
 	display: block;
 	font-size: 1em;
-        margin-left: 4.6%;
-	margin-right: 5%;
+    margin-left: 5.6%;
+	margin-right: 5.6%;
+	line-height:12px;
 	color: #f3ca12;
-	/* font-family: open sans; */
-	font-weight: bold;
 	text-shadow: rgb(12, 11, 11) 1px 1px 1px;
 }
 
@@ -239,7 +238,7 @@ a {
 }
 
 .text-bar-2 {
-
+    padding-left:50px;
 	float: left;
 	display: flex;
 }
@@ -253,7 +252,7 @@ a {
 	border-radius: 20%;
 	height: 3em;
 	width: 3em;
-	box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+	box-shadow: rgba(219, 223, 1, 0.5) 1px 1px 5px;
 }
 
 .footer {
