@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Teste JavaScript 5</title>
+    <meta author='Weslei Barbosa' charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <script>
+        
+        var media = 60
+        var faltas = 20
+
+        var notaAluno = prompt('Digite a nota do Aluno(a)')
+        var faltasAluno = prompt('Digite as faltas do aluno(a)')
+        // true && true
+        if (notaAluno >= media && faltasAluno <=faltas) {
+            document.write('<h1 class="bg-success fw-bold text-center">APROVADO</h1>')
+        } else if(notaAluno >= 1 && faltasAluno <= faltas){
+            document.write('<h1 class="bg-warning text-center">EM EXAME FINAL</h1>')
+        } else{
+            document.write('<h1 class="bg-danger text-center">REPROVADO</h1>')
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+

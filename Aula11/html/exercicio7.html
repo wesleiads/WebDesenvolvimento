@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Teste JavaScript 7</title>
+    <meta author='Weslei Barbosa' charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class="container bg-dark">
+    <script>
+        var nome = prompt('Digite o nome do Aluno(a)')
+        var nota1b = prompt('Digite a nota do 1º Bimestre')
+        var nota2b = prompt('Digite a nota do 2º Bimestre')
+        var faltas1b = prompt('Digite o total de faltas do 1º Bimestre')
+        var faltas2b = prompt('Digite o total de faltas do 2º Bimestre')
+        
+        var faltaAluno = 20
+        var media = 60
+
+        var nota1b = parseFloat(nota1b)
+        var nota2b = parseFloat(nota2b)
+        var faltas1b = parseFloat(faltas1b)
+        var faltas2b = parseFloat(faltas2b)
+
+
+        if (nota1b >= media && nota2b >= media && faltas1b <= faltaAluno && faltas2b <= faltaAluno) {
+            document.write('<h1 class="bg-success fw-bold text-center"> Parabéns ' + nome + ', você foi aprovado(a)</h1>')
+        } else if (nota1b >= 1 && nota2b >= 1 && faltas1b <= faltaAluno && faltas2b <= faltaAluno) {
+            document.write('<h1 class="bg-warning text-center">' + nome + ', você ficou em exame final</h1>')
+        } else {
+            document.write('<h1 class="bg-danger text-center">' + nome + ', não foi desta vez :(</h1>')
+        }
+
+
+    </script>
+</body>
+
+</html>
